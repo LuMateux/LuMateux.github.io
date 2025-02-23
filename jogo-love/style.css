@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe4e1;
+    margin: 0;
+}
+
+#questionContainer, #resultContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#resultContainer {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#yesBtn {
+    background-color: #ff69b4;
+    color: white;
+}
+
+#noBtn {
+    background-color: #d3d3d3;
+    position: relative;
+}
